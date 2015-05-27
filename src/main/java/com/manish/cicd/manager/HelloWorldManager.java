@@ -18,4 +18,10 @@ public class HelloWorldManager {
     public String sayHello(){
         return "Hello World!";
     }
+
+    public String sayBye(){
+        return "Bye World!";
+    }
+
+
 }
