@@ -21,7 +21,7 @@ public class HelloWorldManagerTest extends TestCase {
         assertTrue(HelloWorldManager.getInstance()!=null);
     }
 
-   /* @Test
+    @Test
     public void testSayHello( ){
         assertTrue(HelloWorldManager.getInstance().sayHello().equals("Hello World!")) ;
     }
@@ -29,6 +29,6 @@ public class HelloWorldManagerTest extends TestCase {
     @Test
     public void testSayBye( ){
         assertTrue(HelloWorldManager.getInstance().sayBye().equals("Bye World!")) ;
-    }*/
+    }
 
 }
