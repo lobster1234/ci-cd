@@ -22,7 +22,7 @@ public class HelloWorldManagerTest extends TestCase {
     }
 
     @Test
-    public void testSayHello() throws Exception {
+    public void testSayHello(){
         assertTrue(HelloWorldManager.getInstance().sayHello().equals("Hello World!"));
     }
 }
