@@ -1,6 +1,7 @@
 package com.manish.cicd.manager;
 
 import junit.framework.TestCase;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -9,6 +10,11 @@ import static org.junit.Assert.*;
  * Created by mpandit on 5/26/15.
  */
 public class HelloWorldManagerTest extends TestCase {
+
+    @Before
+    public void setup(){
+
+    }
 
     @Test
     public void testGetInstance() throws Exception {
